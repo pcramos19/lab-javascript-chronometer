@@ -5,6 +5,7 @@ class Chronometer {
   }
   startClick() {
     this.intervalId = setInterval(() => {
+      printTime();
       this.currentTime++;
     }, 1000);
   }
