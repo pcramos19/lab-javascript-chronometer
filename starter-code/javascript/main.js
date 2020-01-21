@@ -1,12 +1,12 @@
-var chronometer = new Chronometer();
-var btnLeft     = document.getElementById('btnLeft');
-var btnRight    = document.getElementById('btnRight');
-var minDec      = document.getElementById('minDec');
-var minUni      = document.getElementById('minUni');
-var secDec      = document.getElementById('secDec');
-var secUni      = document.getElementById('secUni');
-var milDec      = document.getElementById('milDec');
-var milUni      = document.getElementById('milUni');
+let chronometer = new Chronometer();
+let btnLeft     = document.getElementById('btnLeft');
+let btnRight    = document.getElementById('btnRight');
+let minDec      = document.getElementById('minDec');
+let minUni      = document.getElementById('minUni');
+let secDec      = document.getElementById('secDec');
+let secUni      = document.getElementById('secUni');
+let milDec      = document.getElementById('milDec');
+let milUni      = document.getElementById('milUni');
 
 
 function printTime() {
